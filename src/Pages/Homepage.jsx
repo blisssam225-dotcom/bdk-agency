@@ -23,7 +23,7 @@ const Homepage = () => {
         </p>
 
         <p className="text-lg md:text-xl font-bold pt-5 text-white text-center">
-          Dream,... Study,... Explore
+          Dream,... Study,... Discover
         </p>
         <button className="text-white font-bold hover:text-white border-2 border-white hover:bg-[#ff822e] hover:border-white px-6 py-2 mt-16 flex items-center">
           <Link to='services' smooth={true}
