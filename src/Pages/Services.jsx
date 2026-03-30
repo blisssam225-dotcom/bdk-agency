@@ -9,6 +9,10 @@ const services = [
   "Pre-departure counselling",
   "Booking flight tickets",
   "Securing accommodation",
+  "Tour Package and holidays planning",
+  "Airport Pick-up & Logistics Services",
+  "Travel Insurance",
+  "Travel Consultation",
   "Guidance upon arrival in the foreign country"
 ];
 
@@ -35,7 +39,7 @@ const Services = () => {
             <div className='absolute h-[3px] bg-[#008024] w-[120px] mt-6'></div>
           </div>
         
-        <p className=' font-normal text-center'>Admission is ongoing for january 2025 intake to the following countries: Poland, Malta, United Kingdom, USA, Canada. </p>
+        <p className=' font-normal text-center'>Admission is ongoing for January 2026 intake to the following countries: Poland, Malta, United Kingdom, USA, Canada, Albania. </p>
         <p className=' font-normal text-center'>Our packages cover: </p>
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
